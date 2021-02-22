@@ -1,0 +1,19 @@
+{
+    "name": "chonchol/todo-oop-php",
+    "description": "Todos application with Object Oriented PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Chonchol Mahmud",
+            "email": "chonchol57@gmail.com"
+        }
+    ],
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "todo\\": "app/"
+        }
+    }
+}

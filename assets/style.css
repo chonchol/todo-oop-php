@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0px;
+}
+.logo-area h2{
+	color: #EFDDDF;
+	font-size: 56px;
+}
+.single-task{
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+}
+.task-area{
+	border: 1px solid #ddd;	
+	-webkit-box-shadow: 0 8px 20px -12px #777;
+    -moz-box-shadow: 0 8px 20px -12px #777;
+    box-shadow: 0 8px 20px -12px #777;
+}
+.task-menu{
+	display: flex;
+	padding: 15px;
+	font-size: 12px;
+}
+.task-menu ul{
+	list-style: none;
+	text-align: center;
+	margin: 0px;
+	margin-left: 75px;
+}
+.task-menu ul li{
+	float: left;
+	margin-right: 12px;
+}
+.task-menu ul li a, .task-menu p a{
+	text-decoration: none;
+	color: black;
+}
+.task-menu ul li .active{
+	text-decoration: none;
+	color: black;
+	border: 1px solid #ddd;
+	padding: 2px 3px;
+}
+.form-check-input{
+	margin-top: 0.4rem;
+}
+.form-control{
+	padding: .8rem .75rem;
+	border: none;
+	border-bottom: 2px solid #ddd;
+    border-radius: 0;
+	font-style: italic;
+}
+.form-control:focus{
+	box-shadow: none;
+	border-color: #ddd;
+}
+ .form-check-label{
+	text-decoration: line-through #ddd;
+    color: #ddd;
+}
+input:checked ~ .checkmark{
+	background-color: #ddd;
+}
+.add-btn{
+	display: none;
+}
+.delete-btn{
+	float: right;
+	font-size: 18px;
+    color: black;
+    opacity:0;
+    transition:opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+}
+.single-task a {
+	color: #ddd;
+    border: 1px solid #ddd;
+    padding: 0px 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.single-task:hover .delete-btn {
+	text-decoration: none;
+    opacity: 1;
+    transition:opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+}​
